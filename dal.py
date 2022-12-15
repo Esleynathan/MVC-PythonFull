@@ -10,8 +10,6 @@ class PessoaDal:
     def ler(cls):
         nome = 'Ésley'
         idade = 28
-        cpf = '000.000.000-12'
+        cpf = '00000000012'
         return Pessoa(nome, idade, cpf)
 
-p1 = Pessoa('Ésley', 20, '000.000.000-12')
-PessoaDal.salvar(p1)
